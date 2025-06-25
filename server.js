@@ -1,9 +1,12 @@
-
+const cors = require('cors');
 const express = require('express');
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient()
 const app = express()
 app.use(express.json())
+/*eu deixando o cors assim estou permitindo qualquer
+  pagina acessar o meu ambiente. - isto não é seguro*/
+app.use(cors())
 
 
 //vamos criar um usuário

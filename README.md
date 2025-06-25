@@ -13,6 +13,9 @@ Este projeto é uma API REST simples para cadastro e gerenciamento de usuários,
 
 
 ---
+## Front-end que faz o consumo desta API
+🖥️ Frontend React que consome esta API: [Frontend React CRUD](https://github.com/wotoss/Frontend-React-CRUD---usuarios)
+
 
 ## 📂 Funcionalidades da API
 
